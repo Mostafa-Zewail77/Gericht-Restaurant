@@ -1,0 +1,112 @@
+.app__footer{
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+}
+
+.app__footer-black{
+    background: var(--color-black);
+    height: 280px;
+    width: 100%;
+    
+}
+
+.app__footer-content{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 12rem;
+    padding: 0 2rem;
+    width:85%;
+    
+}
+
+.app__footer-content_contact,
+.app__footer-content_logo,
+.app__footer-content_work {
+    flex: 1;
+    margin: 1.5rem;
+    text-align: center;
+    
+}
+
+.app__footer-content_logo img:first-child {
+    width: 210px;
+    margin-bottom: 0.75rem;
+}
+
+.app__footer-content_work p:nth-child(2n + 1) {
+    margin-bottom: 1rem;
+}
+
+
+.app__footer-content_icons svg {
+    color: var(--color-white);
+    margin: 0.5rem;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.app__footer-content_icons svg:hover {
+    color: var(--color-golden);
+}
+
+.app__footer-content_icons{
+    margin-top: .75rem;
+}
+
+.app__footer-headtext{
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-bottom: 1rem;
+}
+
+.footer__copyright {
+    margin: 3rem 0 6rem 0;
+}
+
+
+@media screen and (min-width: 2000px) {
+    .app__footer-black{
+        height: 450px;
+    }
+    .app__footer-headtext {
+        font-size: 51px;
+        line-height: 61.6px;
+    }
+
+    .app__footer-content_logo img:first-child {
+        width: 310px;
+        
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .app__footer-black{
+        height: 435px;
+    }
+    .app__footer-content{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .app__footer-content_contact,
+    .app__footer-content_logo,
+    .app__footer-content_work {
+        margin: 2rem 0;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .app__footer-content_logo img:first-child {
+        width: 80%;
+    }
+}

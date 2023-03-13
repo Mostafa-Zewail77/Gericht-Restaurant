@@ -1,0 +1,23 @@
+.menu__menuitem{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 ;
+    width: 100%;
+}
+
+
+
+.menu__menuitem-head_title{
+    flex: 1;
+}
+
+.menu__menuitem-head_price{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.menu__menuitem-tags{
+    width: 100%;
+    margin-top: 0.2rem;
+}

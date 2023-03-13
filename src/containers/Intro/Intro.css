@@ -1,0 +1,27 @@
+.app__intro{
+    height: 80vh;
+    position: relative;
+    
+}
+
+.app__intro video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app__intro-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    background: rgba(0, 0, 0, .65);
+    
+}
+
+.app__intro-ovrelay_circle {
+    border: 1px solid var(--color-golden);
+    border-radius: 50%;
+    padding: 2rem;
+    cursor: pointer;
+}
