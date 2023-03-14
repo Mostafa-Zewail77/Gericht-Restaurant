@@ -25,7 +25,7 @@ function Laurels() {
         <h1 className='headtext__cormorant'>Our Laurels</h1>
         <div className="app__laurels_awards" style={{margin:'1rem'}}>
           {
-            data.awards.map((award)=> <AwardCard award={award} />)
+            data.awards.map((award)=> <AwardCard award={award} key={award.title}  />)
           }
         </div>
       </div>
