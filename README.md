@@ -1,5 +1,6 @@
 # Gericht Restaurant
- a fully Responsive Website Using React
+a fully Responsive Website for Gericht Restaurant that reflects the restaurant's branding and visual identity using React and custom CSS to enhance the website's visual appeal.
+ 
  
 ## <a href= 'https://gericht-restaurant-mz7.vercel.app/'>Demo</a>
 
